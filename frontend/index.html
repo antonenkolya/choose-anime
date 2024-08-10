@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="animeList.js"></script>
+<script src="showReview.js"></script>
+<script src="addReview.js"></script>
+<title>Choose anime!</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="desc">
+	<tbody>
+		<tr>
+			<td><h2 style="font-weight: bold">Choose anime! - сервис для подбора аниме по жанрам</h2></td>
+		</tr>
+		<tr>
+			<td><h4 style="font-weight: medium; font-size: 18px">Добро пожаловать в наш сервис подбора аниме! Укажите ваш любимый жанр, и мы подберем для вас самые захватывающие и увлекательные аниме-сериалы. Независимо от того, любите ли вы экшен, романтику, фантастику, ужасы, приключения или что-то еще, мы поможем вам найти идеальное аниме для просмотра. Погрузитесь в увлекательный мир японской анимации прямо сейчас!</h4></td>
+		</tr>
+	</tbody>
+	
+	</div>
+
+<h4 style="font-weight: bold; color: #336699">Выберите жанр аниме:</h4>
+<select id="genre-id">
+  <option value="1" selected>экшн</option>
+  <option value="2">боевик</option>
+  <option value="3">детектив</option>
+  <option value="4">фэнтези</option>
+  <option value="5">исторический</option>
+  <option value="6">драма</option>
+  <option value="7">романтика</option>
+  <option value="8">философский</option>
+  <option value="9">триллер</option>
+  <option value="10">сверхъестественное</option>
+  <option value="11">ужасы</option>
+  <option value="12">школьное</option>
+  <option value="13">повседневность</option>
+  <option value="14">психологическое</option>
+  <option value="15">комедия</option>
+</select>
+<button class="btn-sm" onclick="animeList()">Найти</button>
+<div id="animeList" style="opacity: 1">
+	 <tbody id="result">
+		 
+	 </tbody>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
