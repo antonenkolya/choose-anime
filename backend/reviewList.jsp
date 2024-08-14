@@ -8,8 +8,8 @@
 
 <% 
 	final String url = "jdbc:mysql://localhost:3306/anime";
-    final String user = "root";
-    final String password = "root_PSW3-@";
+    final String user = "***";
+    final String password = "***";
     		
 		try {
 	        Class.forName("com.mysql.jdbc.Driver");
