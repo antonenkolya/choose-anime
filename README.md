@@ -7,6 +7,16 @@
    <img background="white" width="70" height="70" src="https://github.com/user-attachments/assets/3e3511ff-4713-4135-a399-13ad5f7469f7">
   <img background="white" width="70" height="70" src="https://github.com/user-attachments/assets/7cc66618-c011-4d5f-bd67-1a4879309ddd">
 </p>
-Клиентская часть: HTML, CSS, JS
+Клиентская часть: HTML, CSS, JS <br/>
 Серверная часть: Java Server Pages (обработка запросов к локальной базе данных MySQL)
-## Preview
+
+## Описание Java Server Pages
+
+### addReview.jsp
+Возвращает пользователю об успешном добавлении отзыва в базу данных в формате text/html.
+
+### animeList.jsp
+Возвращает пользователю список аниме в формате JSON согласно выбранным фильтрам (жанрам).
+
+### reviewList.jsp
+Возвращает пользователю список отзывов для конкретного аниме в формате JSON.
