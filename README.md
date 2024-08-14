@@ -12,11 +12,19 @@
 
 ## Описание Java Server Pages
 
-### addReview.jsp
-Возвращает пользователю об успешном добавлении отзыва в базу данных в формате text/html.
 
 ### animeList.jsp
 Возвращает пользователю список аниме в формате JSON согласно выбранным фильтрам (жанрам).
 
+<img  src="https://github.com/antonenkolya/choose-anime/blob/main/previews/3.gif">
+
 ### reviewList.jsp
 Возвращает пользователю список отзывов для конкретного аниме в формате JSON.
+
+<img  src="https://github.com/antonenkolya/choose-anime/blob/main/previews/2.gif">
+
+
+### addReview.jsp
+Возвращает пользователю об успешном добавлении отзыва в базу данных в формате text/html.
+
+<img  src="https://github.com/antonenkolya/choose-anime/blob/main/previews/1.gif">
